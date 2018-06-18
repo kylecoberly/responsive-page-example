@@ -5,12 +5,12 @@
 .blurb > p {
     color: #1c2233;
     font-family: "Surveyor Body", serif;
-    font-size: 1.75rem;
+    font-size: 21px;
     line-height: 2.5rem;
     margin: 0 0 3rem 0;
 }
 
 .blurb > p:first-letter {
     font-family: "Surveyor Bold", serif;
-    font-size: 4rem;
+    font-size: 42px;
 }

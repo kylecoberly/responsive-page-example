@@ -1,6 +1,6 @@
 .details {
     grid-area: details;
-    padding: 2rem 2rem 1rem 2rem;
+    padding: 56px 56px 28px 56px;
     background-color: #fff;
 }
 
@@ -12,24 +12,26 @@
     list-style-type: none;
     display: flex;
     flex-flow: row wrap;
+    padding: 0;
+    margin: 0;
 }
 
 .details li {
-    width: 11rem;
-    margin-bottom: 1rem;
+    width: 146px;
+    margin-bottom: 28px;
 }
 
 .details li h3 {
     text-transform: uppercase;
     color: #1c2233;
     font-family: "Sailec Medium", sans-serif;
-    font-size: 0.75rem;
+    font-size: 11px;
     margin: 0;
 }
 
 .details li p {
     margin-top: 0;
-    padding-top: 0.25rem;
+    padding-top: 5px;
     font-family: "Surveyor Body", serif;
-    font-size: 1rem;
+    font-size: 16px;
 }

@@ -1,4 +1,5 @@
 .style-list {
+    grid-area: style-list;
 }
 
 .style-list h3 {
@@ -21,7 +22,7 @@
 }
 
 .style-list li {
-    width: 11rem;
+    width: 140px;
     color: #1c2233;
     font-family: "Surveyor Body", serif;
     font-size: 1rem;

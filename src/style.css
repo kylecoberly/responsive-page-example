@@ -18,14 +18,34 @@
 
 body {
     padding-top: 2rem;
+    margin: 0;
     background-color: #f8f8f8;
     font-size: 14px;
+}
+
+#app {
+    margin: 0 auto;
+    max-width: 1150px;
+    padding-bottom: 112px;
 }
 
 #app > div {
     display: grid;
     grid-template: 
         ". hero hero hero ." auto
-        ". . . . ." 4rem
-        ". blurb . details ." auto / 1fr 30rem auto 30rem 1fr;
+        ". . . . ." 112px
+        ". blurb . details ." auto
+        ". style-list . details ." auto / 112px 1fr 112px 1fr 112px;
+}
+
+@media (max-width: 1149px){
+    #app > div {
+        padding:  14px;
+        grid-template: 
+            "hero" auto
+            "." 56px
+            "blurb" auto
+            "details" auto
+            "style-list" auto / 1fr;
+    }
 }
