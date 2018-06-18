@@ -20,6 +20,6 @@ export default class App extends Component {
                 <StyleList styles={styles} />
                 <Details details={details} />
             </div>
-        )
+        );
     }
-}
+};

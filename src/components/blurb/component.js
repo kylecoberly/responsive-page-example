@@ -7,6 +7,6 @@ export default class Blurb extends Component {
             <div className="blurb">
                 <p>{this.props.copy}</p>
             </div>
-        )
+        );
     }
-}
+};

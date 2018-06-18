@@ -14,6 +14,6 @@ export default class StyleList extends Component {
                 <h3>Styles Used</h3>
                 <ul>{styles}</ul>
             </div>
-        )
-    }
-}
+        );
+    };
+};

@@ -9,7 +9,6 @@ export default class Hero extends Component {
                 <HeroPlate label={this.props.label} title={this.props.title} />
                 <img src={this.props.image} alt="bedroom" />
             </div>
-        )
-    }
-}
-
+        );
+    };
+};

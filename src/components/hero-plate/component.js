@@ -8,6 +8,6 @@ export default class HeroPlate extends Component {
                 <p>{this.props.label}</p>
                 <h2>{this.props.title}</h2>
             </div>
-        )
+        );
     }
-}
+};

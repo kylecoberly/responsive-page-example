@@ -13,6 +13,6 @@ export default class Details extends Component {
             <div className="details">
                 <ul>{details}</ul>
             </div>
-        )
-    }
-}
+        );
+    };
+};
