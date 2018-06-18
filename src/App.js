@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import Hero from "./components/hero/component.js";
 import Blurb from "./components/blurb/component.js";
+import Details from "./components/details/component.js";
 
 import image from "./assets/images/bedroom.jpg";
 const title = "Faye’s Classic Eclectic Living Room";
@@ -17,6 +18,7 @@ export default class App extends Component {
                     label={label}
                 />
                 <Blurb copy={copy} />
+                <Details />
             </div>
         )
     }

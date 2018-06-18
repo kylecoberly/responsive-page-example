@@ -4,16 +4,16 @@
     font-size: 2rem;
 }
 @font-face {
-    font-family: "Sailec Medium";
-    src:  url("assets/fonts/sailec/medium.otf") format("opentype");
-}
-@font-face {
     font-family: "Surveyor Body";
     src:  url("assets/fonts/surveyor/surveyortext-light-webfont.ttf") format("truetype");
 }
 @font-face {
     font-family: "Surveyor Bold";
     src:  url("assets/fonts/surveyor/surveyortext-book-webfont.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Sailec Medium";
+    src:  url("assets/fonts/sailec/medium.otf") format("opentype");
 }
 
 body {
@@ -26,6 +26,6 @@ body {
     display: grid;
     grid-template: 
         ". hero hero hero ." auto
-        ". . . . ." 1fr
+        ". . . . ." 4rem
         ". blurb . details ." auto / 1fr 30rem auto 30rem 1fr;
 }
