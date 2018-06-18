@@ -1,4 +1,5 @@
 .hero {
+    grid-area: hero;
     display: flex;
     align-items: center;
     flex-flow: column nowrap;
@@ -12,6 +13,6 @@
 }
 
 .hero > img {
-    max-width: 900px;
+    text-align: center;
     margin-top: -2rem;
 }
