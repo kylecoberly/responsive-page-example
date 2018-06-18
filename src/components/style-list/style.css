@@ -1,0 +1,43 @@
+.style-list {
+}
+
+.style-list h3 {
+    text-transform: uppercase;
+    color: #eecec2;
+    font-family: "Sailec Medium", sans-serif;
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.style-list h3::after {
+    content: ":";
+}
+
+.style-list ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.style-list li {
+    width: 11rem;
+    color: #1c2233;
+    font-family: "Surveyor Body", serif;
+    font-size: 1rem;
+}
+
+.style-list li .icon-wrapper {
+    position: relative;
+}
+.style-list li .material-icons {
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+.style-list p {
+    display: inline-block;
+    margin: 0 0 0 1.5rem;
+}

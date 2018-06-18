@@ -4,6 +4,10 @@
     background-color: #fff;
 }
 
+.details h3::after {
+    content: ":";
+}
+
 .details ul {
     list-style-type: none;
     display: flex;
