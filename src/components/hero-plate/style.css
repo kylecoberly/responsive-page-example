@@ -1,0 +1,18 @@
+.hero-plate {
+    padding: 1.5rem 2rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+.hero-plate p {
+    color: #eecec2;
+    font-family: "Sailec Medium", sans-serif;
+    text-transform: uppercase;
+    margin: 0 0 0.5rem 0;
+}
+
+.hero-plate h2 {
+    margin: 0;
+    font-family: "Surveyor Medium", serif;
+    color: #1c2233;
+}

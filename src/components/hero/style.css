@@ -1,0 +1,17 @@
+.hero {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    text-align: center;
+}
+
+.hero .hero-plate {
+    position: relative;
+    z-index: 10;
+    max-width: 30rem;
+}
+
+.hero > img {
+    max-width: 900px;
+    margin-top: -2rem;
+}
