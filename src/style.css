@@ -1,2 +1,12 @@
+@font-face {
+    font-family: "Surveyor Medium";
+    src:  url("assets/fonts/surveyor/surveyortext-medium-webfont.ttf") format("truetype")
+}
+@font-face {
+    font-family: "Sailec Medium";
+    src:  url("assets/fonts/sailec/medium.otf") format("opentype")
+}
+
 body {
+    font-size: 14px;
 }

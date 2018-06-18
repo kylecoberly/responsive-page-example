@@ -1,12 +1,13 @@
 import React, {Component} from "react";
-import Hero from "./components/hero.js";
+import HeroPlate from "./hero-plate.js";
 
-export default class App extends Component {
+export default class Hero extends Component {
     render(){
         return (
             <div>
-                <Hero />
+                <HeroPlate />
             </div>
         )
     }
 }
+

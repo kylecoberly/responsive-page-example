@@ -31,6 +31,11 @@ module.exports = {
                 use: {
                     loader: "babel-loader"
                 }
+            },{
+                test: /\.(ttf|otf)$/,
+                use: {
+                    loader: "url-loader"
+                }
             }
         ]
     },
